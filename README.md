@@ -15,7 +15,3 @@ cmake -S . -B cmake-build-release -A Win32 -G "Visual Studio 18 2026"
 cmake --build cmake-build-release --config Release
 ```
 Assuming all went well, the BLITZ3D_INSTALL directory will contain the final binaries, simply run Blitz3D.exe to get blitzing!
-
-### Too lazy to build?
-
-Grab the prebuilt version from https://blitzresearch.itch.io/
