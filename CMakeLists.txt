@@ -1,11 +1,11 @@
-cmake_minimum_required(VERSION 3.16)
+cmake_minimum_required(VERSION 3.20)
 
 # Set ON for some debugging
 set(CMAKE_VERBOSE_MAKEFILE OFF)
 
 project("Blitz3D")
 
-option(BB_LIBSGD_ENABLED "Blitz3D LibSGD build enabled" OFF)
+option(BB_LIBSGD_ENABLED "Blitz3D LibSGD build enabled" ON)
 option(BB_FMOD_ENABLED "Blitz3D FMOD build enabled" OFF)
 
 if (NOT (CMAKE_CXX_COMPILER_ID STREQUAL "MSVC"))
